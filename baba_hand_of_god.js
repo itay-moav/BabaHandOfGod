@@ -5,7 +5,7 @@ jQuery.widget("ui.babaHandOfGod",{
             'PointTo': null,
             'deltaLeft:':0,
             'deltaHeight':0,
-			'src': 'babafinger.gif''
+			'src': 'babafinger.gif'
         }, this.options);
         $(this.element).click($.proxy(this.showPoint, this));
     },
@@ -66,4 +66,4 @@ jQuery.widget("ui.babaHandOfGod",{
             return false;
     }
 });
-:q                         
+                  
